@@ -4,17 +4,11 @@
 This is a collection of datasets which are useful for object detection in the domain of grocery product detection. The credits for the respective datasets belong to the authors, which are credited with each dataset individually. These datasets were accumulated by the [Auto-ID Labs](https://www.autoidlabs.ch/) at the [ETH Zürich](www.ethz.ch) within an ongoing effort to accelerate computer vision research in the grocery domain. The datasets were accumulated by Klaus Fuchs & Tobias Grundmann.
 
 ## Datasets
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 | Name   | # Classes    | # Instances   | # Images   | 
 | ------ | ------------ | ------------- | ---------- |
 | Holoselecta | 109     | 10035         | 300        | 
 | Grocery Products (Grozi101) |  |      |            | 
-| SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     | 
+| SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     |  
 ... if you know further datasets let us know by issuing a request ...    
 
 ### Holoselecta
