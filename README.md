@@ -9,6 +9,7 @@ This is a collection of datasets which are useful for object detection in the do
 | Holoselecta | 109     | 10035         | 300        | 
 | Grocery Products (Grozi101) |  |      |            | 
 | SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     |  
+
 ... if you know further datasets let us know by issuing a request ...    
 
 ### Holoselecta
