@@ -6,28 +6,43 @@ This is a collection of datasets which are useful for object detection in the do
 ## Datasets
 | Name   | # Classes    | # Instances   | # Images   | 
 | ------ | ------------ | ------------- | ---------- |
-| Holoselecta | 109     | 10035         | 300        | 
-| Grocery Products (Grozi101) |  |      |            | 
-| SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     |  
+| Holoselecta | 109     | 10035         | 295        | 
+| Grozi-3.2K |  3235    |               | 3235 + 680 |
+| Grozi120 | 120        |               | 720 + 4973 |
+| SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     |
+
 
 ... if you know further datasets let us know by issuing a request ...    
 
-### Holoselecta
-*Klaus Fuchs, Tobias Grundmann, Elgar Fleisch; Towards Identification of Packaged Products via Computer Vision; 2019; Proceedings of the IoT 2019*  
+### Holoselecta 
+Please cite the paper as follows:
+*Klaus Fuchs, Tobias Grundmann, Elgar Fleisch. "Towards Identification of Packaged Products via Computer Vision." Proceedings of the IoT 2019. 2019*  
+
+License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 A dataset of labeled bounding boxes on realistic images of products in vending machines of the Zurich area.  
 
 [**Download**]() (will forward to Google Drive)
 
-### Grocery Products (GroZi101)
-*Alessio Tonioni, Luigi di Stefano; Domain invariant hierarchical embedding for grocery products recognition; 2019; Computer Vision and Image Understanding*  
+### GroZi120
+Please cite the paper as follows:
+* Michele Merler, Carolina Galleguillos, and Serge Belongie. "Recognizing groceries in situ using in vitro training data". Computer Vision and Pattern Recognition, 2007.*  
 
-A dataset of labeled products in Swiss supermarket shelves. This dataset is a task-adaption one-shot learning dataset. For every product there is one labeled studio quality image of the product in the training dataset and the validation dataset consists of labeled bounding boxes in shelves in a shop realistic environment.  
+A dataset of labeled products in Swiss supermarket shelves. This dataset is a task-adaption one-shot learning dataset. For every product there is one labeled studio quality image of the product (in vitro) in the training dataset and the validation dataset consists of labeled frames in 29 videos with labeled bounding boxes in shelves in a shop realistic environment (in situ). low-quality images.
 
-[**Download**](https://drive.google.com/open?id=1vvB1hvKhr4pE8zUpPImlogA6kof-kLVN) (will forward to Google Drive)
+[**Website**](http://grozi.calit2.net/)
+
+### Grozi-3.2K
+Please cite the paper as follows:
+*Marian George and Christian Floerkemeier. "Recognizing Products: A Per-exemplar Multi-label Image Classification Approach." European Conference on Computer Vision. Springer, Cham, 2014*
+
+Version of GroZi120 with more products and higher quality images. A dataset of labeled products in Swiss supermarket shelves. This dataset is a task-adaption one-shot learning dataset. For every product there is one labeled studio quality image of the product (in vitro) in the training dataset and the validation dataset consists of images taken from a camcorder video with labeled bounding boxes on in shelves in a shop realistic environment (in situ).
+
+[**Download**](https://sites.google.com/view/mariangeorge/datasets?authuser=0) (will forward to Google Pages Website)
 
 ### SKU110K
-*Eran Goldman, Roei Herzig, Aviv Eisenschtat, Jacob Goldberger, Tal Hassner; Precise Detection in Densely Packed Scenes; 2019; Proceedings of Computer Vision and Pattern Recognition 2019*  
+Please cite the paper as follows:
+*Eran Goldman, Roei Herzig, Aviv Eisenschtat, Jacob Goldberger, Tal Hassner. "Precise Detection in Densely Packed Scenes." Computer Vision and Pattern Recognition. 2019*  
 
 A dataset of labeled bounding boxes on realistic images of products shelves in supermarkets.  
 
