@@ -22,7 +22,7 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 
 A dataset of labeled bounding boxes on realistic images of products in vending machines of the Zurich area.  
 
-[**Download**]() (will forward to Google Drive)
+[**Download**](https://drive.google.com/open?id=1OofnsREqF1QNfUqZPZgcXu2VkWr2JUMA) (will forward to Google Drive)
 
 ### GroZi120
 Please cite the paper as follows:  
