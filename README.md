@@ -4,15 +4,15 @@
 This is a collection of datasets which are useful for object detection in the domain of grocery product detection. The credits for the respective datasets belong to the authors, which are credited with each dataset individually. These datasets were accumulated by the [Auto-ID Labs](https://www.autoidlabs.ch/) at the [ETH Zürich](www.ethz.ch) within an ongoing effort to accelerate computer vision research in the grocery domain. The datasets were accumulated by Klaus Fuchs & Tobias Grundmann.
 
 ## Datasets
-| Name   | # Classes    | # Instances   | # Images   | 
-| ------ | ------------ | ------------- | ---------- |
-| Holoselecta | 109     | 10035         | 295        | 
-| Grozi-3.2K |  3235    |               | 3235 + 680 |
-| Grozi120 | 120        |               | 720 + 4973 |
-| SKU110K | 110,712     | ~1.74 * 10^6  | 11,762     |
+| Name                           | # Classes    | # Instances   | # Images    | GTIN annotated   | 
+| ------------------------------ | ------------ | ------------- | ----------- | ---------------- |
+| Holoselecta                    | 109          | 10'035        | 295         | Yes              |
+| Grozi-3.2K                     | 3'235        |               | 3'235 + 680 | No               |
+| Grozi120                       | 120          |               | 720 + 4'973 | No               |
+| The Freiburg Groceries Dataset | 25           | 5'000         | 5'000       | No               |
+| SKU110K                        | 110'712      | ~1.74 * 10^6  | 11,762      | No               |
 
-
-... if you know further datasets let us know by issuing a request ...    
+... if you know further datasets let us know by issuing a request or sending us an email to team@autoidlabs.ch ...    
 
 ### Holoselecta 
 Please cite the paper as follows:  
@@ -39,6 +39,15 @@ Please cite the paper as follows:
 Version of GroZi120 with more products and higher quality images. A dataset of labeled products in Swiss supermarket shelves. This dataset is a task-adaption one-shot learning dataset. For every product there is one labeled studio quality image of the product (in vitro) in the training dataset and the validation dataset consists of images taken from a camcorder video with labeled bounding boxes on in shelves in a shop realistic environment (in situ).
 
 [**Download**](https://drive.google.com/file/d/1QdNBMijT8PozTwLEK8fFuG9WiGtuHFeu/view?usp=sharing)
+
+
+### The Freiburg Groceries Dataset
+Please cite the paper as follows:  
+*Philipp Jund, Nichola Abdo, Andreas Eitel, Wolfram Burgard. "The Freiburg Groceries Dataset." arXiv, 2016*
+
+The Freiburg Groceries Dataset consists of 5000 256x256 RGB images of 25 food classes. Examples for each class can be found below. The paper can be found here and the dataset here.
+
+[**Download**](https://github.com/PhilJd/freiburg_groceries_dataset/blob/master/README.md)
 
 ### SKU110K
 Please cite the paper as follows:  
