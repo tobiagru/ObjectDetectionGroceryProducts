@@ -38,7 +38,7 @@ Please cite the paper as follows:
 
 Version of GroZi120 with more products and higher quality images. A dataset of labeled products in Swiss supermarket shelves. This dataset is a task-adaption one-shot learning dataset. For every product there is one labeled studio quality image of the product (in vitro) in the training dataset and the validation dataset consists of images taken from a camcorder video with labeled bounding boxes on in shelves in a shop realistic environment (in situ).
 
-[**Download**](https://sites.google.com/view/mariangeorge/datasets?authuser=0) (will forward to Google Pages Website)
+[**Download**](https://drive.google.com/file/d/1QdNBMijT8PozTwLEK8fFuG9WiGtuHFeu/view?usp=sharing)
 
 ### SKU110K
 Please cite the paper as follows:  
