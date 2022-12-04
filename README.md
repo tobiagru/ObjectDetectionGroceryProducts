@@ -11,6 +11,9 @@ This is a collection of datasets which are useful for object detection in the do
 | Grozi120                       | 120          |               | 720 + 4'973 | No               |
 | The Freiburg Groceries Dataset | 25           | 5'000         | 5'000       | No               |
 | SKU110K                        | 110'712      | ~1.74 * 10^6  | 11,762      | No               |
+| Locount                        | 140          | ~1.9 * 10^6   | 50'394      | ?               |
+
+
 
 ... if you know further datasets let us know by issuing a request or sending us an email to team@autoidlabs.ch ...    
 
@@ -56,3 +59,11 @@ Please cite the paper as follows:
 A dataset of labeled bounding boxes on realistic images of products shelves in supermarkets.  
 
 [**Github**](https://github.com/eg4000/SKU110K_CVPR19)
+
+### The Locoust Dataset
+Please cite the paper as follows:  
+*Yuanqiang Cai and Longyin Wen and Libo Zhang and Dawei Du and Weiqiang Wang. "Rethinking Object Detection in Retail Stores" AAAI 2021*
+
+They collect a large-scale object localization and counting dataset at 28 different stores and apartments, which consists of 50,394 images with the JPEG image resolution of 1920x1080 pixels. More than 1.9 million object instances in 140 categories
+
+[**Link**](https://isrc.iscas.ac.cn/gitlab/research/locount-dataset) 
